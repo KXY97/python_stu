@@ -1,0 +1,43 @@
+#!/usr/bin/python
+#-*- coding:utf-8 -*-
+#User:kong
+# a=int(input('请输入您的总资产:'))
+# goods={'电脑':1999,'盖饭':10,'草莓':20,'冰箱':998}
+# g=list(goods)
+# c=[]
+# d=len(g)
+# w=0
+# for i,j in enumerate(g):
+#     print(i+1,j,goods[j])
+# while True:
+#     b=input('请输入您想购买商品序号:')
+#     try:
+#         if b == 'exit':
+#             break
+#         elif b[0] == '-':
+#             c.remove(g[int(b[1:])-1])
+#             print(c)
+#         else:
+#             c.append(g[int(b)-1])
+#             print(c)
+#     except:
+#         print('输入错误')
+# e=input('是否结账Y/N:')
+# if e == 'Y':
+#     for i in c:
+#         w=w+goods[i]
+#     while w > a:
+#             print('余额不足:')
+#             x=input('是否充值Y/N:')
+#             if x == 'Y':
+#                 y=int(input('充值金额:'))
+#                 a=a+y
+#             else:
+#                 break
+#     if w > a:
+#         print('余额不足，购买失败')
+#     else:
+#         q=a-w
+#         print('购买成功，剩余',q,'元')
+from 练习 import hanshu
+print(hanshu('sacsaz',3,10))
